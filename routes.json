@@ -1,0 +1,54 @@
+{
+    "routes": [
+        {
+            "route": "/callback",
+            "serve": "/callback.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/account",
+            "serve": "/account.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/projects/new",
+            "serve": "/projects.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/projects/new",
+            "serve": "/projects/new.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/projects/datasets/new",
+            "serve": "/projects/datasets/new.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/projects/[projectId]/datasets/[datasetId]",
+            "serve": "/datasets/[datasetId].html",
+            "statusCode": 200
+        },
+        {
+            "route": "/projects/[projectId]/datasets/new",
+            "serve": "/datasets/new.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/projects/*",
+            "serve": "/projects/[projectId].html",
+            "statusCode": 200
+        },
+        {
+            "route": "/",
+            "serve": "/index.html",
+            "statusCode": 200
+        },
+        {
+            "route": "/*",
+            "serve": "/404.html",
+            "statusCode": 200
+        }
+    ]
+}
