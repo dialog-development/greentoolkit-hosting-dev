@@ -16,23 +16,13 @@
             "statusCode": 200
         },
         {
-            "route": "/projects/new",
-            "serve": "/projects/new.html",
-            "statusCode": 200
-        },
-        {
-            "route": "/projects/datasets/new",
-            "serve": "/projects/datasets/new.html",
-            "statusCode": 200
-        },
-        {
             "route": "/projects/[projectId]/datasets/[datasetId]",
-            "serve": "/datasets/[datasetId].html",
+            "serve": "/projects/[projectId]/datasets/[datasetId].html",
             "statusCode": 200
         },
         {
             "route": "/projects/[projectId]/datasets/new",
-            "serve": "/datasets/new.html",
+            "serve": "/projects/[projectId]/datasets/new.html",
             "statusCode": 200
         },
         {
