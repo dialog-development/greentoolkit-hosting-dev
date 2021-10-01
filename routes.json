@@ -11,18 +11,8 @@
             "statusCode": 200
         },
         {
-            "route": "/projects/new",
-            "serve": "/projects.html",
-            "statusCode": 200
-        },
-        {
-            "route": "/projects/[projectId]/datasets/[datasetId]",
-            "serve": "/projects/[projectId]/datasets/[datasetId].html",
-            "statusCode": 200
-        },
-        {
-            "route": "/projects/[projectId]/datasets/new",
-            "serve": "/projects/[projectId]/datasets/new.html",
+            "route": "/app",
+            "serve": "/app.html",
             "statusCode": 200
         },
         {
