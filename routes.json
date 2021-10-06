@@ -16,6 +16,11 @@
             "statusCode": 200
         },
         {
+            "route": "/projects",
+            "serve": "/projects.html",
+            "statusCode": 200
+        },
+        {
             "route": "/projects/*",
             "serve": "/projects/[projectId].html",
             "statusCode": 200
